@@ -172,12 +172,30 @@
 
 
                             </div>
-
                                 <!-- PAGE CONTENT ENDS -->
                             </div><!-- /.col -->
                         </div><!-- /.row -->
                     </div><!-- /.page-content -->
                 </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
             </div><!-- /.main-content -->
 
 
@@ -186,6 +204,10 @@
 
 
 <?php $__env->startSection('script'); ?>
+
+<!-- #########################################  -->
+
+
         <script type='text/javascript'>
             $("#service").addClass("active");
         </script>

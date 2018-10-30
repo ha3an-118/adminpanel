@@ -12,7 +12,7 @@
 */
 
 Route::get('/', function () {
-    return view('admin.index');
+    return view('test');
 });
 
 //this is for admin panel service part
@@ -27,13 +27,13 @@ Route::post('/test',function(){
     $id=isset($_POST['id'])?$_POST['id']:'the post is not rech';
     $temp=DB::table('services')->where('id',$id)->first();
     $title=$temp->title;
-    $brif="this is brif";
+    $brif=$temp->des;
     $content='thi is contetn';
 
 
 
 
-    $x = ['title' => $title, 'brefi' => $brif ,'content'=>$content ,'req'=>$id ];
+    $x = ['title' => $title, 'brif' => $brif ,'content'=>$content ,'req'=>$id ];
     return json_encode($x);
 
     

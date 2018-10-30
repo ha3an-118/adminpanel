@@ -22,7 +22,7 @@
         <link rel='stylesheet' href='css/modal.css' >
         <script src='js/jquery-3.3.1.js' ></script>
         <script src='js/modal.js'></script>
-
+        <script src='ckeditor/ckeditor.js'></script>
 		<!--[if lte IE 9]>
 			<link rel="stylesheet" href="assets/css/ace-part2.min.css" class="ace-main-stylesheet" />
 		<![endif]-->

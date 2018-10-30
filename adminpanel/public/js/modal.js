@@ -42,8 +42,8 @@ function posttest($modalid){
             if(status == 'success'){
                   var temp=JSON.parse(data);
                $("#title").attr('value',temp.title) 
-               
-
+               $("#brif").text(temp.brif);
+                
 
                 }
 

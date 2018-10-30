@@ -171,12 +171,30 @@
 
 
                             </div>
-
                                 <!-- PAGE CONTENT ENDS -->
                             </div><!-- /.col -->
                         </div><!-- /.row -->
                     </div><!-- /.page-content -->
                 </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
             </div><!-- /.main-content -->
 
 
@@ -185,6 +203,10 @@
 
 
 @section('script')
+
+<!-- #########################################  -->
+
+
         <script type='text/javascript'>
             $("#service").addClass("active");
         </script>
