@@ -28,7 +28,7 @@ Route::post('/test',function(){
     $temp=DB::table('services')->where('id',$id)->first();
     $title=$temp->title;
     $brif=$temp->des;
-    $content='thi is contetn';
+    $content=$temp->content;
 
 
 
